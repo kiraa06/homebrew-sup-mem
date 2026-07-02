@@ -1,18 +1,16 @@
-# Kiraa06 Sup-mem
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kiraa06/sup-mem/main/docs/logo.png" alt="SupMem" width="320">
+</div>
 
-## How do I install these formulae?
+# Homebrew tap for sup-mem
 
-`brew install kiraa06/sup-mem/<formula>`
+Self-hosted memory layer for Claude Code that **measures whether its memories helped** —
+outcome ledger, self-tuning retrieval, bitemporal recall, tamper-evident provenance.
 
-Or `brew tap kiraa06/sup-mem` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "kiraa06/sup-mem"
-brew "<formula>"
+```bash
+brew tap kiraa06/sup-mem
+brew install sup-mem
+sup-mem init   # wires the hooks + MCP server into Claude Code, then restart it
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Main repo (docs, issues): https://github.com/kiraa06/sup-mem
