@@ -1,8 +1,8 @@
 class SupMem < Formula
-  desc "Self-hosted memory layer for Claude Code with an outcome-measuring loop"
+  desc "Self-hosted memory layer for Claude Code, Codex & Gemini CLI (outcome loop)"
   homepage "https://github.com/kiraa06/sup-mem"
-  url "https://files.pythonhosted.org/packages/67/52/436cbc0384d50133330b70704c37c18f34f3ce8d7fa4e10a06101894a93c/sup_mem-0.7.0.tar.gz"
-  sha256 "aca2f04906737bc88cf63edb2791f0b11afd5af36779b4f066fd78cbb7dd3dd6"
+  url "https://files.pythonhosted.org/packages/92/59/744ab1df5b70d1b51226312ec9d2ad01c4f956ac72a607563be66bc0919f/sup_mem-0.8.0.tar.gz"
+  sha256 "1397993b70fd004ebbc1f9e3de11a5104c836f4c679b99b155befa106a72bbca"
   license "MIT"
 
   depends_on "python@3.14"
@@ -23,7 +23,7 @@ class SupMem < Formula
 
   def caveats
     <<~EOS
-      Wire sup-mem into Claude Code (registers hooks + the MCP server), then restart it:
+      Wire sup-mem into your coding host(s) — Claude Code, Codex, Gemini — then restart:
         sup-mem init
     EOS
   end
