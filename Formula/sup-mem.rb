@@ -1,8 +1,8 @@
 class SupMem < Formula
   desc "Self-hosted memory layer for Claude Code, Codex & Gemini CLI (outcome loop)"
   homepage "https://github.com/kiraa06/sup-mem"
-  url "https://files.pythonhosted.org/packages/2f/82/f577dd4552e6c5e278e6e44ddcd4442b956f58e605852ac3171b7b3368e9/sup_mem-0.9.0.tar.gz"
-  sha256 "969d4f880a0acc5e7ec8693cfcaaf05ed5e80dc258dc3c6c0537f486231904b9"
+  url "https://files.pythonhosted.org/packages/9e/6f/50445c4ae8a45c773bd9936cc42c46a185ef0745c80078d1eeb0d5b2dc05/sup_mem-0.9.1.tar.gz"
+  sha256 "276f370527d0e12c3e3d74a0f51d032ee7535476a3c9dc3ce7538b527da59d15"
   license "MIT"
 
   depends_on "python@3.14"
